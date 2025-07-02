@@ -18,7 +18,7 @@ const Services = () => {
             <h1>Lending</h1>
             <p>
               At Must Multiply we offer premium lending services to our clients
-              using collateral based loans with options of watches, automobiles
+              using collateral based loans with options of jewelry, automobiles
               & gold
             </p>
           </div>
@@ -45,9 +45,7 @@ const Services = () => {
             <img src={service_icon_2} alt="" />
             <h1>Proof of Funds</h1>
             <p>
-              At Must Multiply we offer premium lending services to our clients
-              using collateral based loans with options of watches, automobiles
-              & gold
+              We also offer proof of funds servies to individuals and businesses
             </p>
           </div>
         </div>
