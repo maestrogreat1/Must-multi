@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
-import dark_arrow from "../assets/dark-arrow.png";
+// import dark_arrow from "../assets/dark-arrow.png";
 import AboutMain from "../Components/About/AboutMain";
 
 const AboutPage = () => {

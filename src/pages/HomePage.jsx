@@ -6,8 +6,8 @@ import Contact from "../Components/Contact/Contact";
 import Title from "../Components/Title/Title";
 import Videoplayer from "../Components/Videoplayer/Videoplayer";
 
-const Home = () => {
-  const [playState, setPlayState] = useState(false);
+const HomePage = () => {
+    const [playState, setPlayState] = useState(false);
 
   return (
     <div>
@@ -23,7 +23,7 @@ const Home = () => {
       </div>
       <Videoplayer playState={playState} setPlayState={setPlayState} />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default HomePage
