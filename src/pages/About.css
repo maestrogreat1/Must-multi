@@ -1,0 +1,50 @@
+.abouts{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../assets/office.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abouts-text{
+    text-align: center;
+    max-width: 800px;
+}
+.abouts-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.abouts-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 850px) {
+
+    .abouts{
+        height: 80vh;
+    }
+
+    .abouts-text h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .abouts-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .abouts-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+        padding: 0 10px;
+    }
+}

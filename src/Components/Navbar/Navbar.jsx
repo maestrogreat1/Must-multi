@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/mustlog.png'
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import menu_icon from '../../assets/menu-icon.png'
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -38,10 +38,10 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={`container ${sticky? 'dark-nav' : ''}`} ref={menuRef}>
+    <nav className={` ${sticky? 'dark-nav' : ''}`} ref={menuRef}>
       <img src={logo} alt="" className='logo' />
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
-        <li><Link to="hero" smooth={true} offset={-310} duration={500} onClick={toggleMenu}>
+        <li><Link to="" smooth={true} offset={-310} duration={500} onClick={toggleMenu}>
             Home
           </Link></li>
         <li><Link to="about" smooth={true} offset={-310} duration={500} onClick={toggleMenu}>

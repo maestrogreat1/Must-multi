@@ -45,5 +45,6 @@
     .hero-text p{
         font-size: 14px;
         margin: 15px auto 30px;
+        padding: 0 20px;
     }
 }

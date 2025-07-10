@@ -5,7 +5,7 @@ import dark_arrow from '../../assets/dark-arrow.png'
 
 const Hero = () => {
   return (
-    <section className='hero container' id='hero'>
+    <section className='hero' id='hero'>
       <div className="hero-text">
         <h1>We Provide Liquidity for Business and Individuals</h1>
         <p>Our cutting-edge services are designed to empower business and individuals with knowledge, liquidity and expert advise needed to excel in the ever dynamic business world</p>
