@@ -8,7 +8,7 @@ import Contact from "./Components/Contact/Contact";
 import Videoplayer from "./Components/Videoplayer/Videoplayer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./pages/Layout";
-import Home from "./pages/HOme";
+import HOme from "./pages/HOme";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
@@ -33,7 +33,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<HOme />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="services" element={<ServicesPage />} />
