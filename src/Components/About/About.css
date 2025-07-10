@@ -73,11 +73,11 @@
 } */
 
 .about-right h2{
-    font-size: 35px;
+    font-size: 32px;
     color: #000f38;
     margin: 10px 0;
     min-width: 400px;
-    /* padding-left: 20px; */
+    padding: 0 10px;
     text-align: center;
 }
 .about-right p{

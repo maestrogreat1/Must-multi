@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AboutMain.css"
 import about_img1 from "../../assets/abouter.jpg"
-import director_img from "../../assets/aboutImage.jpg"
+import director_img from "../../assets/manager.jpg"
 
 
 const AboutMain = () => {
@@ -55,7 +55,7 @@ const AboutMain = () => {
                 </p>
               </div>
               <div className="service-lefts">
-                <img src={director_img} alt="" className="about-img" />
+                <img src={director_img} alt="" className="service-img2" />
                 {/* <img src={play_icon} alt="" className='play-icon' onClick={()=>{setPlayState(true)}} /> */}
               </div>
             </div>

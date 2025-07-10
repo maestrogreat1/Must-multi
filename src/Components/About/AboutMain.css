@@ -25,6 +25,12 @@
     height: 400px;
 }
 
+.service-img2{
+    width: 100%;
+    border-radius: 10px;
+    height: 600px;
+}
+
 
 .service-lefts{
     flex-basis: 40%;
@@ -100,6 +106,12 @@
     width: 100%;
     border-radius: 10px;
     height: 300px;
+}
+
+  .service-img2{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
 }
 
 .service-right{

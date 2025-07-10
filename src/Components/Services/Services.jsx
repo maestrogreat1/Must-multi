@@ -1,7 +1,7 @@
 import React from "react";
 import "./Services.css";
 import service_1 from "../../assets/loan.jpg";
-import service_2 from "../../assets/loan.jpg";
+import service_2 from "../../assets/lend.jpg";
 import service_icon_1 from "../../assets/loan_icon.png";
 import service_icon_2 from "../../assets/business_icon.png";
 import { Link } from "react-router-dom";
